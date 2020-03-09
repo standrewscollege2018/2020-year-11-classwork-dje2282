@@ -1,0 +1,21 @@
+""" Internal Assesment Quiz """
+
+
+print("hello!")
+
+
+number= 6
+
+keep_asking = True 
+
+while keep_asking == True:
+    guess = int(input("guess a number"))
+    if guess == number:
+        print("thats right")
+        keep_asking = False
+    
+    else:
+        print("thats wrong")
+    
+    except:
+        print("thats not a number") 
